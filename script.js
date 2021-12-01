@@ -1,7 +1,8 @@
 let rollback = 20;
+let title = prompt("Как называется ваш проект?");
+
 let adaptive = confirm("Нужен ли адаптив на сайте?");
 
-let title = prompt("Как называется ваш проект?");
 let screens = prompt("Какие типы экранов нужно разработать? \nПример: Простые, Сложные, Интерактивные");
 let screenPrice = parseInt(prompt("Сколько будет стоить данная работа? \nПример: 12000"));
 
